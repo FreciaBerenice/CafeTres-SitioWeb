@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="esta es una página de una tienda de café">
+    <meta name="robots" content="index,follow">
+    <title>Tres | Servimos café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Thasadith:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+
+   
+</head>
+
+<body>
+
+    <input class="cajafea" type ="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav class="menu">
+      <ul>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="menu.html">Carta</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+      </ul>
+    </nav>
+
+
+    <header>
+        <a href="index.html"> <img class="logo" src="./imágenes/logoprincipal.png" alt="logo"></a>
+
+        <section>
+            <nav>
+                <ul class="sub-menu">
+                  <li class="sub-menu__item"></li>
+                  <a href="contacto.html"> <img class="sub-menu__item" src="./imágenes/hombrecito.png" alt="logo"></a>
+                  <li class="sub-menu__item"></li>
+                  <a href="tienda.html"> <img class="sub-menu__item" src="./imágenes/shopbag.png" alt="logo"></a>
+                 
+                    
+                    
+                </ul>
+        
+            </nav>
+        </section>
+
+        </header>
+
+        <main>
+
+
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__item"><a href="nosotros.html">Nosotros</a></li>
+                <li class="main-nav__item"><a href="tienda.html">Tienda</a></li>
+                <li class="main-nav__item"><a href="contacto.html">Contacto</a></li>
+                <li class="main-nav__item"><a href="menu.html">Carta</a></li>
+                <li class="main-nav__item"><a href="eventos.html">Eventos</a></li>
+ 
+            </ul>
+
+        </nav>
+
+        <h1 class="formu-con">Suscribite para recibir novedades</h1>
+    <form id="contact-form" action="#mensaje-agradecimiento">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div id="mensaje-agradecimiento">
+        <h2 class="gracias">¡Gracias por suscribirte!</h2>
+        <p class="descuento">Guarda esta imagen para obtener un 10% de descuento en tu próxima merienda.</p>
+        <img class="flyer-dscto" src="./imágenes/descuento.png" alt="descuento">
+    </div>
+
+
+        
+        <footer>
+            <div class="footer-logo">
+              <img src="./imágenes/logofooter.png" alt="Logofooter">
+            </div>
+            <div class="direc">
+                Teodoro García 2806,
+                C1426DNB CABA
+            </div>
+            <div class="menu-redes">
+              <a href="#"><img src="./imágenes/fb.png" alt="facebook"></a>
+              <a href="#"><img src="./imágenes/ig.png" alt="instagram"></a>
+              <a href="#"><img src="./imágenes/tw.png" alt="twitter"></a>
+              <a href="#"><img src="./imágenes/pin.png" alt="Pinterest"></a>
+            </div>
+            <div class="contacto">
+              <h3>Contáctanos</h3>
+              <ul>
+                <li><img src="./imágenes/phone.png" alt="phone"> 1127159846</li>
+                <li><img src="./imágenes/mail.png" alt="mail"> servimos.cafe@gmail.com</li>
+                <li><img src="./imágenes/ubicación.png" alt="ubicación"> Visitanos en nuestro local</li>
+              </ul>
+            </div>
+            <div class="menu-footer">
+              <h3>Servicios</h3>
+              <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="menu.html">Carta</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="index.html">Home</a></li>
+              </ul>
+            </div>
+          </footer>
+
+          
+
+        </body>
+
+
+
+        </html>

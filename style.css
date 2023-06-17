@@ -1,0 +1,2624 @@
+* {
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{padding-top: 20px;
+padding-left: 580px;
+padding-bottom: 20px;
+padding-right: 20px;
+background-size: 100%;
+display: flex;
+justify-content: space-between;
+ align-items: center;
+ background-color: white;
+
+}
+.logo{
+  background-color: white;
+  
+  
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.menu {
+  display: block;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.sub-menu{
+    display: flex;
+    padding-left: 30%;
+    margin-top: -100px;
+    left: -13px;
+    position: relative;
+  
+
+}
+
+.sub-menu__item
+{
+    display:flex;
+    padding: 5px;
+    top: 10px;
+    position: relative;
+  
+}
+
+.main-nav {
+    margin-top: 10px;
+    padding-left: 0;
+    background-color: black;
+    width: 100%;
+    height: 58px;
+    left: 0px;
+    top: 239px;
+  
+
+}
+
+.main-nav__item {
+    display:inline-block; justify-content: center;
+padding-left: 120px;
+padding-top: 15px;
+
+
+
+}
+
+.main-nav__item a {color: white; 
+        padding: 15px;
+        text-decoration: none;
+    font-family: 'Thasadith', sans-serif;
+font-size: 24px;
+
+
+
+}
+
+.main-nav__item a:hover {text-decoration: underline;}
+.main-nav__item ::after {content: " | " ;}
+
+.boton{ 
+ 
+    font-family: 'Thasadith', sans-serif;
+    font-size: 36px; 
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 3px;
+    border-radius: 12px;
+    margin-left: 40px;
+    position: relative;
+    
+   
+    }
+
+.main-banner {
+    top:300px;
+    bottom: 300px; 
+    padding-left:100px;
+    padding-right:300;
+    position: absolute;
+    top: 295px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: white;
+    margin-top: 280px;
+    margin-bottom: 10px;
+    z-index: 1;
+    
+
+}
+
+.imagen-principal{
+  width: 100%;
+  margin-top: -40px;
+  filter: brightness(0.5);
+ 
+}
+
+
+
+h1{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 40px;
+color: black;
+text-align: center;
+}
+.list__item {display:inline-block; justify-content: center;
+    padding-left: 120px;
+    padding-top: 15px;
+    font-family: 'Julius Sans One', sans-serif;}
+
+h2 {font-family: 'Julius Sans One', sans-serif;
+    font-size: 32px;
+color: black;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;}
+
+/* ACÁ EMPIEZA LA TIENDA */
+.titulo-tienda{
+  font-family: 'Julius Sans One', sans-serif;
+    font-size: 60px;
+color:white;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+background-image: url(./imágenes/fondotienda.png);
+background-size: 100%;
+}
+
+.img-tienda {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  color: #000000;
+  margin: 0;
+  position: relative;
+  left: -500px;
+  padding-bottom: 95px;
+}
+
+.subtitulo-etiopia {
+position: relative;
+left: -440px;
+top: 55px;
+}
+
+.descrip-etiopia {
+  color: #000000;
+  margin-top: -300px;
+  margin-left: 340px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 26px;
+}
+
+.subtitulo-bolivia {
+  position: relative;
+left: -440px;
+top: 55px;
+  }
+
+  .descrip-bolivia {
+    color: #000000;
+  margin-top: -300px;
+  margin-left: 340px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 26px;
+  }
+
+  .subtitulo-peru{
+    position: relative;
+    left: -470px;
+    top: 55px;
+  }
+
+  .descrip-peru {
+    color: #000000;
+  margin-top: -300px;
+  margin-left: 340px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 26px;
+  }
+
+  .subti-che{
+
+    position: relative;
+    left: -440px;
+    top: 55px;
+
+  }
+  .descrip-che{
+    color: #000000;
+    margin-top: -300px;
+    margin-left: 340px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 26px;
+
+  }
+
+  .subti-v60{
+
+    position: relative;
+    left: -470px;
+    top: 55px;
+
+  }
+  .descrip-v60{
+    color: #000000;
+  margin-top: -300px;
+  margin-left: 340px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 26px;
+
+  }
+
+  .subti-aero{
+
+    position: relative;
+    left: -420px;
+    top: 55px;
+
+  }
+  .descrip-aero{
+    color: #000000;
+  margin-top: -300px;
+  margin-left: 340px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 26px;
+
+  }
+
+
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* ACÁ EMPIEZA LA SECCIÓN CONTACTO */
+
+.formu-con {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  position: relative;
+  left: 21px;
+
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Thasadith', sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  top: -59px;
+  font-size: 24px;
+  left: -9px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Thasadith', sans-serif;
+    position: relative;
+    top: -60px;
+    font-size: 24px;
+    left: -8px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  padding: 8px 40px;
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Thasadith', sans-serif;
+  position: relative;
+  top: -37px;
+  left: -9px;
+}
+
+#mensaje-agradecimiento:target {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Thasadith', sans-serif;
+}
+
+#mensaje-agradecimiento {
+  display: none;
+  font-family: 'Thasadith', sans-serif;
+}
+
+.gracias{
+  position: relative;
+    top: -53px;
+    left: 0px;
+    font-size: 28px;
+}
+.descuento{
+  position: relative;
+  top: -55px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 24px;
+  left: 13px;
+  
+}
+
+.flyer-dscto {
+  position: relative;
+    top: -38px;
+    left: 19px;
+    width: 609px;
+}
+
+/* ACÁ TERMINA LA SECCIÓN CONTACTO */
+
+
+/* ESTO ES LAB DE LA HOME */
+
+.lab{background-color: #AC7A4E;
+background-size: 100%;
+padding-bottom: 5%;
+padding-top: 5%;}
+
+.lab__item {display:inline-block; justify-content: center;
+    padding-left: 120px;
+    padding-top: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 28px;
+    }
+
+
+    /* ESTO ES TALLERES DE LA HOME */
+    .taller{height: 500px;
+    width: 350px;
+    border: solid rgb(0, 0, 0) 1px;
+    position: relative;
+    left: 80px;
+}
+
+.taller-mens {
+  position: relative;
+  left: 80px;
+}
+
+h3 {padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 32px;
+color: black;
+text-align: center;
+padding-top: 70px;}
+
+.month{
+  background-color: #E5DED9;
+  padding-bottom: 0px;
+
+}
+
+/* ESTO ES CAFÉ DEL MES DE LA HOME */
+
+.month__item{display:inline-block; justify-content: center;
+    padding-left: 120px;
+    padding-top: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+color:black;
+font-size: 24px;}
+
+.cafe-mes{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+.button-comprar{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px; 
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-color: black;
+    padding: 15px;
+    margin-bottom: 5%;
+    top: -280px;
+    position: relative;
+    right: -60%;
+    bottom: 60%;
+
+    }
+
+   /* ACÁ EMPIEZA LA CARTA DESKTOP */
+
+
+   .titulo-menu {font-family: 'Julius Sans One', sans-serif;
+     font-size: 80px;
+     color: white;
+     background-image:url(./imágenes/fondocarta.png);
+     background-size: 50%;
+     padding-left: px;
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     width: 100%;
+     }
+
+    section#carta {
+        padding: 20px;
+      }
+      
+      h2 {
+        color: #000000;
+        margin-top: 0;
+        padding-bottom: 10px;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 48px;
+        
+      }
+      
+      .categoria {
+        margin-bottom: 20px;
+      }
+      
+      h3 {
+        color: #000000;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 40px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        margin-bottom: 10px;
+      }
+      
+      .tipos li {
+        color: #000000;
+        margin: 0;
+        font-family: 'Thasadith', sans-serif;
+      }
+      
+    
+
+      .description-am {
+        color: #000000;
+        margin-top: -250px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+      .description-es {
+        color: #000000;
+        margin-top: -250px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+        
+      }
+      .description-flat {
+        color: #000000;
+        margin-top: -250px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+
+      .description-capu {
+        color: #000000;
+        margin-top: -280px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+
+      .description-alfa {
+        color: #000000;
+        margin-top: -280px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+
+      .description-brow {
+        color: #000000;
+        margin-top: -280px;
+        margin-left: 340px;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+
+      .description-galle {
+        color: #000000;
+        margin-top: -280px;
+        margin-left: 340px;
+        margin-bottom: 15%;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 26px;
+        
+      }
+
+
+      h1 {
+        margin: 0;
+      }
+      
+      section {
+        padding: 20px;
+      }
+      
+      .item-tienda-ame {
+        color: #000000;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+      
+      }
+      .item-tienda-espre {
+        color: #000000;
+        margin-top: 180px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+      
+      }
+
+      .item-tienda-flat {
+        color: #000000;
+        margin-top: 180px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+      
+      }
+
+      .item-tienda-capu {
+        color: #000000;
+        margin-top: 180px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+        
+      
+      }
+
+      .item-tienda-alfa {
+        color: #000000;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+        
+      
+      }
+
+      .item-tienda-brow {
+        color: #000000;
+        margin-top:180px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+        
+      
+      }
+
+      .item-tienda-galle {
+        color: #000000;
+        margin-top:180px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #000000;
+        font-family: 'Thasadith', sans-serif;
+        font-size: 48px;
+        
+      
+      }
+      
+     
+      
+      
+
+      .img-carta {
+        width: 300px;
+        height: 400px;
+        object-fit: contain;
+        margin-bottom: 10px;
+        color: #000000;
+        margin: 0;
+       
+        
+      }
+      
+      
+      /* ESTA ES LA PARTE DE NOSOTROS MOB Y DESK */
+
+      #nosotros {
+        background-color: #f8f8f8;
+        padding: 50px 0;
+      }
+
+      
+      
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      .nosotros {
+        text-align: center;
+        font-size: 40px;
+        color: #333;
+        border-bottom: solid black 1px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -50px;
+      }
+      
+      .gallery {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      
+      .gallery img {
+        max-width: 300px;
+        margin: 0 10px;
+      }
+      
+      p.contenido-nosotros {
+        font-size: 24px;
+        line-height: 1.5;
+        color: black;
+        margin-bottom: 20px;
+        font-family: 'Thasadith', sans-serif;
+        
+      }
+
+      /* ACA EMPIEZA EVENTOS */
+
+      .titulo-eventos {
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .evento {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .evento-imagen {
+        flex: 0 0 30%;
+    }
+    
+    .evento-imagen img {
+      max-width: 305px;
+      height: auto;
+      position: relative;
+      left: 29px;
+      
+    }
+    
+    .evento-info {
+        flex: 0 0 70%;
+        padding-left: 20px;
+    }
+
+    .descrip-free {
+      font-family: 'Thasadith', sans-serif;
+      font-size: 40px;
+      position: relative;
+      left: -50px;
+      border-bottom: solid black 1px;
+      padding-bottom: 173px;
+
+    }
+
+    .descrip-gratis {
+      font-family: 'Thasadith', sans-serif;
+      font-size: 40px;
+      position: relative;
+      left: -50px;
+
+    }
+
+    .evento-imagen {
+      font-family: 'Thasadith', sans-serif;
+
+    }
+    
+    .gratis {
+        margin-top: 0;
+    }
+
+    .free {
+      font-size: 40px;
+      position: relative;
+      left: -356px;
+    }
+
+    .gratis {
+      font-size: 40px;
+      position: relative;
+      left: -370px;
+    }
+
+      /* ACÁ TERMINA EVENTOS */
+
+/* ACÁ EMPIEZA EL FOOTER */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  padding-top: 30px;
+}
+
+.direc {
+  float: left;
+  font-family: 'Thasadith', sans-serif;
+  padding-left: 38px;
+}
+
+.menu-redes {
+  float: right;
+ 
+}
+
+.menu-redes a {
+  margin-left: 10px;
+  padding: 10px;
+  left: -40px;
+  position: relative;
+}
+
+.contacto {
+  float: left;
+  margin-top: 20px;
+}
+
+.contacto h3 {
+  color: #fff;
+  font-size: 24px;
+  left: 690px;
+  position: relative;
+  bottom: -60px;
+  
+  
+}
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  left: 715px;
+  position: relative;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+  font-family: 'Thasadith', sans-serif;
+  padding: 5px;
+}
+
+.contacto img {
+  margin-right: 10px;
+}
+
+.menu-footer {
+  clear: both;
+  margin-top: 20px;
+  
+}
+
+.menu-footer h3 {
+  color: #fff;
+  font-size: 24px;
+  position:relative;
+  padding-right: 87%;
+  padding-bottom: 20px ;
+  padding-top: 30px;
+}
+
+.menu-footer ul {
+  list-style: none;
+  margin: 0;
+  padding-right: 50%;
+  padding-left: 38px;
+  color: #fff;
+  list-style: none;
+  
+}
+
+.menu-footer li {
+  margin-bottom: 10px;
+  font-family: 'Thasadith', sans-serif;
+  padding-right: 50%;
+  top: -20%;
+  position: relative;
+  color: #fff;
+  list-style: none;
+}
+
+
+.menu-footer li:last-child {
+  margin-bottom: 0;
+}
+
+.menu-footer {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  position: relative;
+  top: -278px;
+}
+
+.menu-footer a {
+
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/* ESTE ES EL MENÚ HAMBURGUESA DE MOB */
+
+.menu-icon {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.cajafea{
+  display: none;
+}
+
+/* ESTO ES EL CARRUSEL DE MOB */
+
+.carousel {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigation label {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel input[type="radio"] {
+  display: none;
+}
+
+.carousel input[type="radio"]:checked + .slides .slide {
+  scroll-snap-align: center;
+}
+
+.carousel input[type="radio"]:checked + .navigation label {
+  background: #000;
+}
+
+/* ACÁ EMPIEZA A SER RESPONSIVE */
+
+@media screen and (max-width: 768px){
+
+  .main-nav {
+    display:none;
+
+}
+
+.main-nav__item {
+    display: none;
+
+}
+
+.menu-icon {
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 60%;
+  background-color: black;
+  z-index: 9998;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 18px;
+  border: solid;
+  border-radius: 15px;
+}
+
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 20px;
+}
+
+.menu ul li {
+  margin-bottom: 20px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  display: block;
+}
+
+.cajafea{
+  display: none;
+}
+
+.logo{
+    position: relative;
+    left: -278px;
+}
+
+/* HOME TABLET */
+
+.main-banner {
+  color: white;
+    top: 57px;
+    font-size: 41px;
+    left: 220px;
+    z-index: 1;
+ }
+
+  .imagen-principal{
+     
+    width: 768px;
+    margin-top: -40px;
+    filter: brightness(0.5);
+
+  }
+
+  .sub-menu{
+    display: flex;
+    padding-left: 40%;
+    margin-top: -100px;
+    margin-left: -86px;
+
+}
+
+.sub-menu__item
+{
+    display:flex;
+    padding:10px;
+    padding-left: 0;
+
+}
+
+
+  h1 {
+  
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-family: 'Thasadith', sans-serif;
+      font-size: 24px;
+      color: black;
+       text-align: center;
+  
+  }
+
+  .boton {
+    color:white;
+    top: 1%;
+    font-size: 20px;
+    border: solid white 1px;
+    padding: 1px;
+    padding-top: 1px;
+
+  }
+
+  .list__item {
+    padding-left: 228px;
+
+  }
+
+  h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: -5px;
+  }
+
+  .lab__item {
+    background-size: 100%;
+    padding:0px;
+    margin-top: 30px;
+    
+  }
+  .taller {
+    margin-left: 50px;
+    position: relative;
+    left:130px ;
+  }
+
+  p{
+    font-size: 20px;
+    
+  }
+
+  .taller-mens{
+    padding-left: 12%;
+    position: relative;
+    left: 133px;
+  }
+  .fil{
+    padding-left: 12%;
+  }
+
+  h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .month{background-color: #E5DED9;
+  padding-top: 50px;}
+  
+  .cafe-mes{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .month__item{display:inline-block; justify-content: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  left: 217px;
+ 
+  color:black;
+  position: relative;
+  
+}
+
+.button-comprar{
+  font-family: 'Thasadith', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-color: black;
+  position: relative;
+  top: 30%;
+  left: 290px;
+  }
+
+  /* FOOTER TABLET */
+
+  .footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+    padding-top: 30px;
+  }
+  
+  .direc {
+    float: left;
+    font-family: 'Thasadith', sans-serif;
+    padding-left: 247px;
+  }
+  
+  .menu-redes {
+    float: right;
+  }
+  
+  .menu-redes a {
+    margin-left: 10px;
+    padding: 10px;
+    left: -280px;
+    bottom: -69px;
+    position: relative;
+  }
+  
+  .contacto {
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .contacto h3 {
+    color: #fff;
+    font-size: 24px;
+    left: 408px;
+    position: relative;
+    bottom: -24px;
+    
+    
+  }
+  
+  .contacto ul {
+    list-style: none;
+    padding-left: 108px;
+    margin: 0;
+    left: 381px;
+    position: relative;
+    bottom: -32px;
+  }
+  
+  .contacto li {
+    margin-bottom: 10px;
+    font-family: 'Thasadith', sans-serif;
+    padding: 5px;
+  }
+  
+  .contacto img {
+    margin-right: 10px;
+  }
+
+  .menu-footer ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 50%;
+    padding-left: 35px;
+    bottom: -51px;
+    position: relative;
+}
+
+.menu-footer h3{
+    list-style: none;
+    margin: 0;
+    padding-right: 50%;
+    padding-left: 35px;
+    bottom: -41px;
+    position: relative;
+    left: -120px;
+}
+
+
+
+  /* ACÁ EMPIEZA LA SECCIÓN NOSOTROS TABLET */
+
+  .gallery {
+    display: none;
+  
+ }
+ .carousel {
+ 
+  display: block;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  float: left;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  height: 567px;
+  width: 480px;
+  position: relative;
+  padding-top: 90px;
+}
+
+.nosotros{
+position: relative;
+top: -622px;
+font-size: 24px;
+padding-bottom: 10px;
+left: -8px;
+}
+.container {
+top: -5px;
+position: relative;
+border-bottom: solid 1px;
+border-top: solid 1px
+
+}
+
+.navigation {
+  position: absolute;
+  bottom: -237px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ACÁ EMPIEZA TIENDA TABLET */
+
+.titulo-tienda{
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+color:white;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+background-image: url(./imágenes/fondotienda.png);
+background-size: 100%;
+}
+
+.img-tienda {
+width: 300px;
+height: 400px;
+object-fit: contain;
+margin-bottom: 10px;
+color: #000000;
+margin: 0;
+position: relative;
+left: -3px;
+padding-bottom: 1px;
+}
+
+.subtitulo-etiopia {
+position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-etiopia {
+display: none;
+}
+
+.subtitulo-bolivia {
+position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-bolivia {
+  display: none;
+}
+
+.subtitulo-peru{
+  position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-peru {
+  display: none;
+}
+
+.subti-che{
+
+  position: relative;
+left: -3px;
+top: -17px;
+
+}
+.descrip-che{
+  display: none;
+
+}
+
+.subti-v60{
+
+  position: relative;
+left: -3px;
+top: -17px;
+
+}
+.descrip-v60{
+  display: none;
+
+}
+
+.subti-aero{
+
+  position: relative;
+  left: -3px;
+  top: -17px;
+
+}
+.descrip-aero{
+  display: none;
+
+}
+
+
+.producto {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+/* ACÁ EMPIEZA CONTACTO TABLE */
+
+.formu-con {
+  text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative;
+    left: 0px;
+    top: -23px;
+    font-size: 24px;
+}
+.descuento {
+  font-size: 20px;
+}
+
+/* ACÁ EMPIEZA CONTACTO TABLET */
+
+/* ACÁ EMPIEZA LA CARTA TABLET */
+
+.titulo-menu {font-family: 'Julius Sans One', sans-serif;
+font-size: 40px;
+color: white;
+background-image:url(./imágenes/fondocarta.png);
+background-size: 50%;
+padding-left: px;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+width: 100%;
+}
+
+section#carta {
+   padding: 20px;
+ }
+ 
+ h2 {
+   color: #000000;
+   margin-top: 0;
+   padding-bottom: 10px;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 48px;
+   
+ }
+ 
+ .categoria {
+   margin-bottom: 116px;
+ }
+ 
+ h3 {
+   color: #000000;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 40px;
+ }
+ 
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ li {
+   margin-bottom: 10px;
+ }
+ 
+ .tipos li {
+   color: #000000;
+   margin: 0;
+   font-family: 'Thasadith', sans-serif;
+ }
+ 
+
+
+ .description-am {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+ .description-es {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+   
+ }
+ .description-flat {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-capu {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-alfa {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-brow {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-galle {
+  color: #000000;
+  margin-top: -309px;
+  margin-left: 324px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+
+ h1 {
+   margin: 0;
+ }
+ 
+ section {
+   padding: 20px;
+ }
+ 
+ .item-tienda-ame {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+ .item-tienda-espre {
+  color: #000000;
+  margin-top: 193px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-flat {
+  color: #000000;
+  margin-top: 133px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-capu {
+  color: #000000;
+  margin-top: 133px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+
+ .item-tienda-alfa {
+  color: #000000;
+  margin-top: 23px;
+  margin-left: 11px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-brow {
+  color: #000000;
+  margin-top: 166px;
+  margin-left: 11px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+
+ .item-tienda-galle {
+  color: #000000;
+  margin-top: 166px;
+  margin-left: 11px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+ 
+
+ .img-carta {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  color: #000000;
+  margin: 0;
+  position: relative;
+  left: 11px;
+  
+   
+ }
+
+ /* ACÁ EMPIEZA EVENTOS TABLET */
+
+ .titulo-eventos{
+  font-size: 40px;
+  position: relative;
+  top: -17px;
+  left: -7px;
+}
+
+.evento {
+  margin-bottom: 10px;
+}
+
+.evento-imagen {
+  flex: 0 0 100%;
+}
+
+.evento-info {
+  flex: 0 0 100%;
+  padding-left: 0;
+}
+
+.evento-info h2 {
+  font-size: 18px;
+}
+
+.descrip-free {
+  font-family: 'Thasadith', sans-serif;
+    font-size: 26px;
+    position: relative;
+    border-bottom: solid black 1px;
+    padding-bottom: 47px;
+    left: -578px;
+    top: -144px;
+    margin: 211px;
+
+}
+
+.descrip-gratis {
+  font-family: 'Thasadith', sans-serif;
+    font-size: 26px;
+    position: relative;
+    border-bottom: solid black 1px;
+    padding-bottom: 47px;
+    left: -578px;
+    top: -144px;
+    margin: 211px;
+
+}
+
+.evento-imagen {
+  font-family: 'Thasadith', sans-serif;
+
+}
+
+.gratis {
+   position: relative;
+    left: -977px;
+    top: -553px;
+    color: white;
+    
+}
+
+.free {
+  
+  font-size: 40px;
+  position: relative;
+    left: -995px;
+    top: 1099px;
+    color: rgb(0, 0, 0);
+    color: #fff;
+    z-index: 1;
+  
+}
+
+.gratis {
+  font-size: 40px;
+  position: relative;
+  left: -984px;
+  top: -322px;
+  color: white;
+}
+
+.evento-imagen img {
+  max-width: 305px;
+  height: auto;
+  position: relative;
+  left: 80px;
+  filter: brightness(0.4);
+}
+
+ /* ACÁ TERMINA EVENTOS TABLET */
+
+  }
+
+ /* AQUÍ TERMINA TABLET */
+
+
+
+@media (max-width: 480px) {
+* {
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* menú principal */
+
+
+header{
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-bottom: 20px;
+  padding-right: px;
+  background-size: 100%;
+
+  }
+  
+  .sub-menu{
+      display: flex;
+      padding-left: 40%;
+      margin-top: -100px;
+      margin-left: -10%;
+
+  }
+  
+  .sub-menu__item {
+      display:flex;
+      padding:10px;
+      padding-left: 0;
+ 
+  }
+
+  .img-mob{
+    width: 12px;
+    height: 18px;
+    
+
+  }
+
+
+  .main-nav {
+      display:none;
+ 
+  }
+  
+  .main-nav__item {
+      display: none;
+  
+  }
+
+  .menu-icon {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 60%;
+    background-color: black;
+    z-index: 9998;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 18px;
+    border: solid;
+    border-radius: 15px;
+  }
+  
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 20px;
+  }
+  
+  .menu ul li {
+    margin-bottom: 20px;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #menu-toggle:checked ~ .menu {
+    display: block;
+  }
+  
+  .cajafea{
+    display: none;
+  }
+
+  .logo{
+    position: relative;
+    left:10px ;
+  }
+/* ACÁ EMPIEZA LA HOME MOB */
+
+.main-banner {
+  color: white;
+  top: 1%;
+  font-size: 24px;
+  left: 10%;
+  z-index: 1;
+ }
+
+  .imagen-principal{
+     
+    width: 100%;
+    margin-top: -40px;
+    filter: brightness(0.5);
+
+  }
+
+  h1 {
+  
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-family: 'Thasadith', sans-serif;
+      font-size: 24px;
+      color: black;
+       text-align: center;
+  
+  }
+
+  .boton {
+    color:white;
+    top: 1%;
+    font-size: 20px;
+    border: solid white 1px;
+    padding: 1px;
+    padding-top: 1px;
+
+  }
+
+  .list__item {
+    padding-left: 100px;
+
+  }
+
+  h2 {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    left: -5px;
+  }
+
+  .lab__item {
+    background-size: 100%;
+    padding:0px;
+    margin-top: 30px;
+    
+  }
+  .taller {
+    margin-left: 50px;
+    position: relative;
+    left:-25px ;
+  }
+
+  p{
+    font-size: 20px;
+    
+  }
+
+  .taller-mens{
+    padding-left: 12%;
+    position: relative;
+    left: -22px;
+  }
+  .fil{
+    padding-left: 12%;
+  }
+
+  h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .month{
+    background-color: #E5DED9;
+  padding-top: 50px;
+}
+  
+  .cafe-mes{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .month__item{
+    display:inline-block; justify-content: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  left: 80px;
+ 
+  color:black;
+  position: relative;
+  
+}
+
+.button-comprar{
+  font-family: 'Thasadith', sans-serif;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-color: black;
+  position: relative;
+  top: 30%;
+  left: 30%;
+  }
+  
+  /* ACÁ EMPIEZA EL FOOTER MOB */
+  
+  .menu-footer {
+    clear: both;
+    margin-top: 20px;
+  }
+  
+  .menu-footer h3 {
+    color: #fff;
+    font-size: 24px;
+    position:relative;
+    padding-right: 30%;
+    padding-bottom: 15px ;
+    padding-top: 41px;
+    bottom: -48px;
+  }
+  
+  .menu-footer ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 50%;
+    padding-left: 111px;
+    bottom: -48px;
+    position: relative;
+  }
+  
+  .menu-footer li {
+    margin-bottom: 10px;
+    font-family: 'Thasadith', sans-serif;
+    padding-right: 50%;
+    top: -20%;
+    position: relative;
+  }
+  
+  .menu-footer li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .menu-footer {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    position: relative;
+    top: -328px;
+  }
+
+  .contacto h3
+  {
+position: relative;
+}
+
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 100px;
+  padding-top: 30px;
+}
+
+.direc {
+  float: left;
+  font-family: 'Thasadith', sans-serif;
+  padding-left: 104px;
+}
+
+.menu-redes {
+  float: right;
+}
+
+.menu-redes a {
+  margin-left: 15px;
+  padding: 12px;
+  left: -121px;
+  bottom: -33px;
+  position: relative;
+}
+
+.contacto {
+  float: left;
+  margin-top: 20px;
+}
+
+.contacto h3 {
+  color: #fff;
+  font-size: 24px;
+  left: 28px;
+  position: relative;
+  bottom: -221px;
+  
+  
+}
+
+.contacto ul {
+  list-style: none;
+  padding-left: 108px;
+  margin: 0;
+  left: 0px;
+  position: relative;
+  bottom: -230px;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+  font-family: 'Thasadith', sans-serif;
+  padding: 5px;
+}
+
+.contacto img {
+  margin-right: 10px;
+}
+
+.menu-footer h3 {
+  position: relative;
+  left: -18px;
+}
+
+
+  /* ACÁ EMPIEZA LA SECCIÓN NOSOTROS MOB */
+
+  .gallery {
+    display: none;
+  
+ }
+ .carousel {
+ 
+  display: block;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  float: left;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  height: 567px;
+  width: 480px;
+  position: relative;
+  padding-top: 90px;
+}
+
+.nosotros{
+position: relative;
+top: -622px;
+font-size: 24px;
+padding-bottom: 10px;
+left: -8px;
+}
+.container {
+top: -5px;
+position: relative;
+border-bottom: solid 1px;
+border-top: solid 1px
+
+}
+
+.navigation {
+  position: absolute;
+  bottom: -240px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ACÁ EMPIEZA TIENDA MOB */
+
+.titulo-tienda{
+font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+color:white;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+background-image: url(./imágenes/fondotienda.png);
+background-size: 100%;
+}
+
+.img-tienda {
+width: 300px;
+height: 400px;
+object-fit: contain;
+margin-bottom: 10px;
+color: #000000;
+margin: 0;
+position: relative;
+left: -3px;
+padding-bottom: 1px;
+}
+
+.subtitulo-etiopia {
+position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-etiopia {
+display: none;
+}
+
+.subtitulo-bolivia {
+position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-bolivia {
+  display: none;
+}
+
+.subtitulo-peru{
+  position: relative;
+left: -3px;
+top: -17px;
+}
+
+.descrip-peru {
+  display: none;
+}
+
+.subti-che{
+
+  position: relative;
+left: -3px;
+top: -17px;
+
+}
+.descrip-che{
+  display: none;
+
+}
+
+.subti-v60{
+
+  position: relative;
+left: -3px;
+top: -17px;
+
+}
+.descrip-v60{
+  display: none;
+
+}
+
+.subti-aero{
+
+  position: relative;
+  left: -3px;
+  top: -17px;
+
+}
+.descrip-aero{
+  display: none;
+
+}
+
+
+.producto {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+/* ACÁ EMPIEZA CONTACTO MOB */
+
+
+.formu-con {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  position: relative;
+  top: 0px;
+  left: 20px;
+  font-size: 20px;
+  
+}
+
+form {
+  max-width: 250px;
+  margin: 0 auto;
+  font-family: 'Thasadith', sans-serif;
+}
+
+label {
+  display: block;
+    margin-top: 10px;
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    left: -9px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  width: 296px;
+    height: 28px;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Thasadith', sans-serif;
+    position: relative;
+    top: -24px;
+    font-size: 20px;
+    left: -9px;
+}
+
+input[type="submit"] {
+  margin-top: 21px;
+  padding: -5px 12px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Thasadith', sans-serif;
+  position: relative;
+  top: -29px;
+  left: -9px;
+}
+
+#mensaje-agradecimiento:target {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Thasadith', sans-serif;
+}
+
+#mensaje-agradecimiento {
+  display: none;
+  font-family: 'Thasadith', sans-serif;
+}
+
+.gracias{
+  position: relative;
+  top: -28px;
+  left: 0px;
+  font-size: 20px;
+}
+.descuento{
+  position: relative;
+    top: -30px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 18px;
+    left: 13px;
+  
+}
+
+.flyer-dscto {
+  position: relative;
+    top: -38px;
+    left: 8px;
+    width: 398px;
+    padding-top: 39px;
+}
+
+/* ACÁ TERMINA CONTACTO MOB */
+
+/* ACÁ EMPIEZA LA CARTA MOB */
+
+.titulo-menu {font-family: 'Julius Sans One', sans-serif;
+font-size: 40px;
+color: white;
+background-image:url(./imágenes/fondocarta.png);
+background-size: 50%;
+padding-left: px;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+width: 100%;
+}
+
+section#carta {
+   padding: 20px;
+ }
+ 
+ h2 {
+   color: #000000;
+   margin-top: 0;
+   padding-bottom: 10px;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 48px;
+   
+ }
+ 
+ .categoria {
+   margin-bottom: 20px;
+ }
+ 
+ h3 {
+   color: #000000;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 40px;
+ }
+ 
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ li {
+   margin-bottom: 10px;
+ }
+ 
+ .tipos li {
+   color: #000000;
+   margin: 0;
+   font-family: 'Thasadith', sans-serif;
+ }
+ 
+
+
+ .description-am {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+ .description-es {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+   
+ }
+ .description-flat {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-capu {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-alfa {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: -1px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-brow {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+ .description-galle {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ }
+
+
+ h1 {
+   margin: 0;
+ }
+ 
+ section {
+   padding: 20px;
+ }
+ 
+ .item-tienda-ame {
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+ .item-tienda-espre {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-flat {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-capu {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+
+ .item-tienda-alfa {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+ 
+ }
+
+ .item-tienda-brow {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+
+ .item-tienda-galle {
+  color: #000000;
+  margin-top: 54px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+   
+ 
+ }
+ 
+
+ .img-carta {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  color: #000000;
+  margin: 0;
+  position: relative;
+  left: 11px;
+  
+}
+
+/* ACÁ EMPIEZA EVENTOS MOB */
+
+.titulo-eventos{
+  font-size: 40px;
+  position: relative;
+  top: -17px;
+  left: -7px;
+}
+
+.evento {
+  margin-bottom: 10px;
+}
+
+.evento-imagen {
+  flex: 0 0 100%;
+}
+
+.evento-info {
+  flex: 0 0 100%;
+  padding-left: 0;
+}
+
+.evento-info h2 {
+  font-size: 18px;
+}
+
+.descrip-free {
+  color: #fff;
+    margin-top: 14px;
+    margin-left: 79px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 9px;
+    left: -432px;
+
+
+}
+
+.descrip-gratis {
+  color: #fff;
+  margin-top: 14px;
+  margin-left: 79px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: -2px;
+  left: -448px;
+
+}
+
+.evento-imagen {
+  font-family: 'Thasadith', sans-serif;
+
+}
+
+.gratis {
+    margin-top: 0;
+}
+
+.free {
+  
+  color: white;
+  margin-top: 14px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+  left: -552px;
+  
+
+}
+
+.gratis {
+  color: white;
+  margin-top: 14px;
+  margin-left: 8px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+  left: -552px;
+}
+
+.evento-imagen img {
+ 
+  filter: brightness(0.4);
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  color: white;
+  margin: 0;
+  position: relative;
+  left: 60px;
+}
+
+/* ACÁ TERMINA EVENTOS MOB */
+
+ }
+
+
+
+/* ACÁ TERMINA MOB */
